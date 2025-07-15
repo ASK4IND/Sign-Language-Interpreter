@@ -1,0 +1,31 @@
+.App {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(to right, #6dd5ed, #2193b0);
+    color: white;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .video-container {
+    margin-top: 20px;
+    border: 5px solid #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 25px rgba(0,0,0,0.3);
+  }
+  
+  button {
+    margin-top: 20px;
+    padding: 12px 20px;
+    font-size: 18px;
+    background-color: #fff;
+    color: #2193b0;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .text-display {
+    margin-top: 30px;
+  }
+  
