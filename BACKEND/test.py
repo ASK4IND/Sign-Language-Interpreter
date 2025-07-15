@@ -7,7 +7,7 @@ import tensorflow as tf
 from flask_cors import CORS
 import google.generativeai as genai
 
-GEMINI_API_KEY = "AIzaSyCEptW8UmdFFmxBosRhpKSsXSMNwpt8kLw" 
+GEMINI_API_KEY = "key" 
 genai.configure(api_key=GEMINI_API_KEY)  # Replace with your key
 gemini_model = genai.GenerativeModel("gemini-1.5-pro")
 
